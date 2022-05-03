@@ -73,7 +73,8 @@ nav {
 	align-items: center;
 }
 .header-nav, .header-mail, .header-tel {
-	display: block;
+	display: flex;
+	flex-direction: row;
 	padding-top: 32px;
 	padding-bottom: 32px;
 	font-weight: 500;
@@ -88,7 +89,12 @@ nav {
 .header-mail, .header-tel {
 	color: var(--secondary-text-color);
 }
-.current:hover, .header-nav:hover, .header-mail:hover, .header-tel:hover, .current:focus, .header-nav:focus, .header-mail:focus, .header-tel:focus {
+.contact-icon {
+	margin-right: 10px;
+	fill: currentColor;
+}
+
+.current:hover, .header-nav:hover, .header-mail:hover, .header-tel:hover, .current:focus, .header-nav:focus, .header-mail:focus, .header-tel:focus, .contact-icon:hover {
 	color: var(--accent-color);
 }
 .site-nav {
