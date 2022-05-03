@@ -183,6 +183,9 @@ nav {
 	margin-right: 0px;
 }
 .advantages-area {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	width: 270px;
 	height: 120px;
 	padding: 0;
@@ -304,9 +307,9 @@ nav {
 	margin-right: 0px;
 }
 .button {
-	display: block;
-	padding: 0;
-	border: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	width: 44px;
 	height: 44px;
 	color: var(--icon-grey-color);
@@ -331,6 +334,9 @@ nav {
 	margin-bottom: 0;
 }
 .clients-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	width: 170px;
 	height: 92px;
 	color: var(--icon-grey-color);
